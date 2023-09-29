@@ -4,7 +4,7 @@ export default function Home() {
     return (
         <div>
 
-            <header id="header" className="fixed-top ">
+            <header id="header" className="fixed-top" style={{background : '#37517e'}}>
                 <div className="container d-flex align-items-center">
 
                     <h1 className="logo me-auto"><a href="index.html">Ingems Technology</a></h1>
@@ -315,45 +315,7 @@ export default function Home() {
                             <li data-filter=".filter-web">Web</li>
                         </ul>
 
-                        <div className="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-                            <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-                                <div className="portfolio-img"><img src="assets/img/portfolio/portfolio-1.jpg" className="img-fluid" alt="" /></div>
-                                <div className="portfolio-info">
-                                    <h4>App 1</h4>
-                                    <p>App</p>
-                                    <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="App 1"><i className="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" className="details-link" title="More Details"><i className="bx bx-link"></i></a>
-                                </div>
-                            </div>
-
-
-
-                            <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-                                <div className="portfolio-img"><img src="assets/img/portfolio/portfolio-3.jpg" className="img-fluid" alt="" /></div>
-                                <div className="portfolio-info">
-                                    <h4>App 2</h4>
-                                    <p>App</p>
-                                    <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="App 2"><i className="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" className="details-link" title="More Details"><i className="bx bx-link"></i></a>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-4 col-md-6 portfolio-item filter-card">
-                                <div className="portfolio-img"><img src="assets/img/portfolio/portfolio-4.jpg" className="img-fluid" alt="" /></div>
-                                <div className="portfolio-info">
-                                    <h4>Card 2</h4>
-                                    <p>Card</p>
-                                    <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox preview-link" title="Card 2"><i className="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" className="details-link" title="More Details"><i className="bx bx-link"></i></a>
-                                </div>
-                            </div>
-
-
-
-
-
-                        </div>
+                      
 
                     </div>
                 </section>
@@ -600,7 +562,7 @@ export default function Home() {
                                 MG Street
                                 <br />
                                 Noida, 201301<br />
-                                Bharat(India) <br /><br />
+                               India ( Bharat ) <br /><br />
                                 <strong>Phone:</strong> +1 001 002 003<br />
                                 <strong>Email:</strong> info@ingemstechnology.com<br />
 
