@@ -4,7 +4,7 @@ export default function Home() {
     return (
         <div>
 
-            <header id="header" className="fixed-top" style={{background : '#37517e'}}>
+            <header id="header" className="fixed-top" style={{ background: '#37517e' }}>
                 <div className="container d-flex align-items-center">
 
                     <h1 className="logo me-auto"><a href="index.html">Ingems Technology</a></h1>
@@ -104,84 +104,70 @@ export default function Home() {
                     <div className="container" data-aos="fade-up">
 
                         <div className="section-title">
-                            <h2>About Us</h2>
+                            <h2>Why Work With Us?</h2>
                         </div>
 
                         <div className="row content">
-                            <div className="col-lg-6">
+                            <div className="col-lg-12">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                    magna aliqua.
+                                    It's great to hear that you believe your approach, expertise, and values set you apart as the best partner for businesses seeking innovation and success in today's fast-paced digital landscape.
+                                    Having a clear value proposition and a strong sense of your unique selling points is crucial in attracting and retaining clients.
+                                    Here are some suggestions on how you can further communicate and demonstrate your value to potential clients:
                                 </p>
-                                <ul>
-                                    <li><i className="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-                                    <li><i className="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-                                    <li><i className="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-                                </ul>
-                            </div>
-                            <div className="col-lg-6 pt-4 pt-lg-0">
-                                <p>
-                                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                    culpa qui officia deserunt mollit anim id est laborum.
-                                </p>
-                                <a href="#" className="btn-learn-more">Learn More</a>
                             </div>
                         </div>
 
-                    </div>
-                </section>
+                        <section id="services" className="services section-bg" style={{'background' : 'white'}}>
+                            <div className="container" >
 
-                <section id="why-us" className="why-us section-bg">
-                    <div className="container-fluid" data-aos="fade-up">
+                                <div className="row" >
+                                    <div className="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                                        <div className="icon-box">
+                                            <div className="icon"><i className="bi bi-building"></i></div>
+                                            <h2><a href="" style={{'fontSize' : '20px'}}>Expertise and Experience</a></h2>
+                                            <hr />
+                                            <p>
+                                            Software development companies typically have a team of experienced professionals with expertise in various programming languages, frameworks, and technologies. 
+                                            This means they can bring a wide range of skills and knowledge to your project.
+                                            </p>
+                                        </div>
+                                    </div>
 
-                        <div className="row">
+                                    <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+                                        <div className="icon-box">
+                                            <div className="icon"><i className="bi bi-code-square"></i></div>
+                                            <h2><a href="" style={{'fontSize' : '20px'}}>Customised Solution</a></h2>
+                                            <hr />
+                                            <p>Customizing a software solution involves tailoring an existing software product to meet specific requirements or preferences of a user or organization. 
+                                                This can be done in various ways, depending on the flexibility and extensibility of the software in question</p>
+                                        </div>
+                                    </div>
 
-                            <div className="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+                                    <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+                                        <div className="icon-box">
+                                            <div className="icon"><i className="bi-life-preserver"></i></div>
+                                            <h2><a href="" style={{'fontSize' : '20px'}}>Focus on Core Competencies</a></h2>
+                                            <hr />
+                                            <p>Outsourcing software development allows your business to focus on its core activities and strategic goals, 
+                                                while leaving the technical aspects to experts. This can lead to increased productivity and efficiency in other areas.</p>
+                                        </div>
+                                    </div>
 
-                                <div className="content">
-                                    <h3>Eum ipsam laborum deleniti <strong>velit pariatur architecto aut nihil</strong></h3>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                                    </p>
-                                </div>
+                                    <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+                                        <div className="icon-box">
+                                            <div className="icon"><i className="bx bx-layer"></i></div>
+                                            <h2><a href="" style={{'fontSize' : '20px'}}>Focus on Innovation</a></h2>
+                                            <hr />
+                                            <p>A reputable software development company can bring fresh perspectives and innovative ideas to your project. 
+                                                They can suggest creative solutions and help you stay ahead of the curve in terms of technology.</p>
+                                        </div>
+                                    </div>
 
-                                <div className="accordion-list">
-                                    <ul>
-                                        <li>
-                                            <a data-bs-toggle="collapse" className="collapse" data-bs-target="#accordion-list-1"><span>01</span> Non consectetur a erat nam at lectus urna duis? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
-                                            <div id="accordion-list-1" className="collapse show" data-bs-parent=".accordion-list">
-                                                <p>
-                                                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                                                </p>
-                                            </div>
-                                        </li>
-
-                                        <li>
-                                            <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" className="collapsed"><span>02</span> Feugiat scelerisque varius morbi enim nunc? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
-                                            <div id="accordion-list-2" className="collapse" data-bs-parent=".accordion-list">
-                                                <p>
-                                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                                                </p>
-                                            </div>
-                                        </li>
-
-                                        <li>
-                                            <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" className="collapsed"><span>03</span> Dolor sit amet consectetur adipiscing elit? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
-                                            <div id="accordion-list-3" className="collapse" data-bs-parent=".accordion-list">
-                                                <p>
-                                                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-                                                </p>
-                                            </div>
-                                        </li>
-
-                                    </ul>
                                 </div>
 
                             </div>
+                        </section>
 
-                            <div className="col-lg-5 align-items-stretch order-1 order-lg-2 img" data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
-                        </div>
 
                     </div>
                 </section>
@@ -315,7 +301,7 @@ export default function Home() {
                             <li data-filter=".filter-web">Web</li>
                         </ul>
 
-                      
+
 
                     </div>
                 </section>
@@ -562,7 +548,7 @@ export default function Home() {
                                 MG Street
                                 <br />
                                 Noida, 201301<br />
-                               India ( Bharat ) <br /><br />
+                                India ( Bharat ) <br /><br />
                                 <strong>Phone:</strong> +1 001 002 003<br />
                                 <strong>Email:</strong> info@ingemstechnology.com<br />
 
