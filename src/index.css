@@ -1807,6 +1807,21 @@ section {
   transition: 0.3s;
 }
 
+.fontSizeAndWeight{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* .bgDemo{
+  background: none;
+}
+
+.bgDemo:hover {
+  background-color: #37517e;
+  color: white;
+  font-size: 20px;
+} */
+
 @media (max-width: 768px) {
   #footer .footer-bottom {
     padding-top: 20px;

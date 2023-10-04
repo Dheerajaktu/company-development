@@ -117,18 +117,18 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <section id="services" className="services section-bg" style={{'background' : 'white'}}>
+                        <section id="services" className="services section-bg" style={{ 'background': 'white' }}>
                             <div className="container" >
 
                                 <div className="row" >
                                     <div className="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                                         <div className="icon-box">
                                             <div className="icon"><i className="bi bi-building"></i></div>
-                                            <h2><a href="" style={{'fontSize' : '20px'}}>Expertise and Experience</a></h2>
+                                            <h2><a href="" style={{ 'fontSize': '20px' }}>Expertise and Experience</a></h2>
                                             <hr />
                                             <p>
-                                            Software development companies typically have a team of experienced professionals with expertise in various programming languages, frameworks, and technologies. 
-                                            This means they can bring a wide range of skills and knowledge to your project.
+                                                Software development companies typically have a team of experienced professionals with expertise in various programming languages, frameworks, and technologies.
+                                                This means they can bring a wide range of skills and knowledge to your project.
                                             </p>
                                         </div>
                                     </div>
@@ -136,9 +136,9 @@ export default function Home() {
                                     <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
                                         <div className="icon-box">
                                             <div className="icon"><i className="bi bi-code-square"></i></div>
-                                            <h2><a href="" style={{'fontSize' : '20px'}}>Customised Solution</a></h2>
+                                            <h2><a href="" style={{ 'fontSize': '20px' }}>Customised Solution</a></h2>
                                             <hr />
-                                            <p>Customizing a software solution involves tailoring an existing software product to meet specific requirements or preferences of a user or organization. 
+                                            <p>Customizing a software solution involves tailoring an existing software product to meet specific requirements or preferences of a user or organization.
                                                 This can be done in various ways, depending on the flexibility and extensibility of the software in question</p>
                                         </div>
                                     </div>
@@ -146,9 +146,9 @@ export default function Home() {
                                     <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
                                         <div className="icon-box">
                                             <div className="icon"><i className="bi-life-preserver"></i></div>
-                                            <h2><a href="" style={{'fontSize' : '20px'}}>Focus on Core Competencies</a></h2>
+                                            <h2><a href="" style={{ 'fontSize': '20px' }}>Focus on Core Competencies</a></h2>
                                             <hr />
-                                            <p>Outsourcing software development allows your business to focus on its core activities and strategic goals, 
+                                            <p>Outsourcing software development allows your business to focus on its core activities and strategic goals,
                                                 while leaving the technical aspects to experts. This can lead to increased productivity and efficiency in other areas.</p>
                                         </div>
                                     </div>
@@ -156,9 +156,9 @@ export default function Home() {
                                     <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
                                         <div className="icon-box">
                                             <div className="icon"><i className="bx bx-layer"></i></div>
-                                            <h2><a href="" style={{'fontSize' : '20px'}}>Focus on Innovation</a></h2>
+                                            <h2><a href="" style={{ 'fontSize': '20px' }}>Focus on Innovation</a></h2>
                                             <hr />
-                                            <p>A reputable software development company can bring fresh perspectives and innovative ideas to your project. 
+                                            <p>A reputable software development company can bring fresh perspectives and innovative ideas to your project.
                                                 They can suggest creative solutions and help you stay ahead of the curve in terms of technology.</p>
                                         </div>
                                     </div>
@@ -171,6 +171,178 @@ export default function Home() {
 
                     </div>
                 </section>
+
+
+
+
+                <section id="skills" className="skills" style={{ 'marginTop': '-60px' }}>
+
+                    <div className="container" data-aos="fade-up">
+
+                        <div className="row">
+                            <div className="row content" data-aos-delay="100">
+                                <h3>Smart solutions for your smart businesses</h3>
+                                <p className="fst-italic">
+                                    We provide a wide range of digital transformation solutions and services for clients in different industries.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    {/* <span><img src="https://www.php.net//images/logos/php-med-trans-light.gif" style={{ 'height': '30px', 'width': '40px' }} /></span> */}
+
+                    <div className="container" data-aos="fade-up" style={{ 'paddingTop': '15px' }}>
+
+                        <div className="row mx-auto">
+                            <div className="col-md-4">
+                                <div class="card">
+                                    <div class="card-header" style={{ 'fontSize': '18px', 'color': '#37517e', 'fontWeight': '900' }}>
+                                        Web Development
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item fontSizeAndWeight">PHP</li>
+                                        <li class="list-group-item fontSizeAndWeight">React</li>
+                                        <li class="list-group-item fontSizeAndWeight">Node</li>
+                                        <li class="list-group-item fontSizeAndWeight">Angular</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div className="col-md-4">
+                                <div class="card">
+                                    <div class="card-header" style={{ 'fontSize': '18px', 'color': '#37517e', 'fontWeight': '900' }}>
+                                        Mobile Development
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item fontSizeAndWeight">iOS</li>
+                                        <li class="list-group-item fontSizeAndWeight">Android</li>
+                                        <li class="list-group-item fontSizeAndWeight">React Native</li>
+                                        <li class="list-group-item fontSizeAndWeight">Ionic</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div className="col-md-4">
+                                <div class="card">
+                                    <div class="card-header" style={{ 'fontSize': '18px', 'color': '#37517e', 'fontWeight': '900' }}>
+                                        Software Development
+
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item fontSizeAndWeight">Java & RoR</li>
+                                        <li class="list-group-item fontSizeAndWeight">.NET</li>
+                                        <li class="list-group-item fontSizeAndWeight">GoLang</li>
+                                        <li class="list-group-item fontSizeAndWeight">Python</li>
+
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div className="row mx-auto" style={{ 'paddingTop': '7px' }}>
+                            <div className="col-md-4">
+                                <div class="card">
+                                    <div class="card-header" style={{ 'fontSize': '18px', 'color': '#37517e', 'fontWeight': '900' }}>
+                                        Product and Design
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item fontSizeAndWeight">Adobe Photoshop</li>
+                                        <li class="list-group-item fontSizeAndWeight">Sketch</li>
+                                        <li class="list-group-item fontSizeAndWeight">Invisionapp</li>
+                                        <li class="list-group-item fontSizeAndWeight">Zeplin</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div className="col-md-4">
+                                <div class="card">
+                                    <div class="card-header" style={{ 'fontSize': '18px', 'color': '#37517e', 'fontWeight': '900' }}>
+                                        Cloud Platforms
+
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item fontSizeAndWeight">Azure</li>
+                                        <li class="list-group-item fontSizeAndWeight">AWS</li>
+                                        <li class="list-group-item fontSizeAndWeight">Firebase</li>
+                                        <li class="list-group-item fontSizeAndWeight">Parse</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div className="col-md-4">
+                                <div class="card">
+                                    <div class="card-header" style={{ 'fontSize': '18px', 'color': '#37517e', 'fontWeight': '900' }}>
+                                        E-Commerce Development
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item fontSizeAndWeight">Magento</li>
+                                        <li class="list-group-item fontSizeAndWeight">NopCommerce</li>
+                                        <li class="list-group-item fontSizeAndWeight">PrestaShop</li>
+                                        <li class="list-group-item fontSizeAndWeight">Endeca Commerce</li>
+
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+
+                        <div className="row mx-auto" style={{ 'paddingTop': '7px' }}>
+                            <div className="col-md-4">
+                                <div class="card">
+                                    <div class="card-header" style={{ 'fontSize': '18px', 'color': '#37517e', 'fontWeight': '900' }}>
+                                        Data Analytics
+                                    </div>
+                                    {/* <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Cras justo odio</li>
+                                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                                        <li class="list-group-item">Vestibulum at eros</li>
+                                    </ul> */}
+                                </div>
+
+                            </div>
+                            <div className="col-md-4">
+                                <div class="card">
+                                    <div class="card-header" style={{ 'fontSize': '18px', 'color': '#37517e', 'fontWeight': '900' }}>
+                                        Game Development
+
+                                    </div>
+                                    {/* <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Cras justo odio</li>
+                                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                                        <li class="list-group-item">Vestibulum at eros</li>
+                                    </ul> */}
+                                </div>
+
+                            </div>
+                            <div className="col-md-4">
+                                <div class="card">
+                                    <div class="card-header" style={{ 'fontSize': '18px', 'color': '#37517e', 'fontWeight': '900' }}>
+                                        UI & UX Designes
+                                    </div>
+                                    {/* <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Cras justo odio</li>
+                                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                                        <li class="list-group-item">Vestibulum at eros</li>
+                                    </ul> */}
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+
+
+
 
                 <section id="skills" className="skills">
                     <div className="container" data-aos="fade-up">
@@ -226,42 +398,62 @@ export default function Home() {
 
                 <section id="services" className="services section-bg">
                     <div className="container" data-aos="fade-up">
-
                         <div className="section-title">
                             <h2>Services</h2>
-                            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                            <p>We provide a wide range of digital transformation solutions and services for clients in different industries.</p>
                         </div>
 
                         <div className="row">
-                            <div className="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                            <div className="col-md-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                                 <div className="icon-box">
                                     <div className="icon"><i className="bx bxl-dribbble"></i></div>
-                                    <h4><a href="">Lorem Ipsum</a></h4>
+                                    <h4><a href="" className='fontSizeAndWeight'>Web Development</a></h4>
                                     <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
                                 </div>
                             </div>
 
-                            <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+                            <div className="col-md-4 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
                                 <div className="icon-box">
                                     <div className="icon"><i className="bx bx-file"></i></div>
-                                    <h4><a href="">Sed ut perspici</a></h4>
+                                    <h4><a href="" className='fontSizeAndWeight'>Mobile Apps</a></h4>
                                     <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
                                 </div>
                             </div>
 
-                            <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+                            <div className="col-md-4 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
                                 <div className="icon-box">
                                     <div className="icon"><i className="bx bx-tachometer"></i></div>
-                                    <h4><a href="">Magni Dolores</a></h4>
+                                    <h4><a href="" className='fontSizeAndWeight'>Maintenance</a></h4>
                                     <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
                                 </div>
                             </div>
 
-                            <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+                        </div>
+
+
+
+                        <div className="row">
+                            <div className="col-md-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                                 <div className="icon-box">
-                                    <div className="icon"><i className="bx bx-layer"></i></div>
-                                    <h4><a href="">Nemo Enim</a></h4>
-                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                                    <div className="icon"><i className="bx bxl-dribbble"></i></div>
+                                    <h4><a href="" className='fontSizeAndWeight'>Resource Hiring & Staffing</a></h4>
+                                    <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                                </div>
+                            </div>
+
+                            <div className="col-md-4 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+                                <div className="icon-box">
+                                    <div className="icon"><i className="bx bx-file"></i></div>
+                                    <h4><a href="" className='fontSizeAndWeight'>Design</a></h4>
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                                </div>
+                            </div>
+
+                            <div className="col-md-4 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+                                <div className="icon-box">
+                                    <div className="icon"><i className="bx bx-tachometer"></i></div>
+                                    <h4><a href="" className='fontSizeAndWeight'>Software Quality Assurance & Testing</a></h4>
+                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
                                 </div>
                             </div>
 
