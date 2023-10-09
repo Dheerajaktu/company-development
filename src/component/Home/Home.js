@@ -35,7 +35,7 @@ export default function Home() {
                                 </ul>
                             </li>
                             <li><a className="nav-link scrollto" href="#contact">Contact</a></li>
-                            <li><a className="getstarted scrollto" href="#about">Get Started</a></li>
+                            <li><a className="getstarted scrollto" href="#about">Estimate Project</a></li>
                         </ul>
                         <i className="bi bi-list mobile-nav-toggle"></i>
                     </nav>
@@ -52,7 +52,7 @@ export default function Home() {
                             <h1>Better Solutions For Your Business</h1>
                             <h2>We are team of talented designers making websites with Bootstrap</h2>
                             <div className="d-flex justify-content-center justify-content-lg-start">
-                                <a href="#about" className="btn-get-started scrollto">Get Started</a>
+                                <a href="#about" className="btn-get-started scrollto">Estimate Project Now</a>
                                 <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" className="glightbox btn-watch-video"><i className="bi bi-play-circle"></i><span>Watch Video</span></a>
                             </div>
                         </div>
