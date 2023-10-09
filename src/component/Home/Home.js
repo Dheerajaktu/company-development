@@ -196,7 +196,7 @@ export default function Home() {
                         <div className="row mx-auto">
                             <div className="col-md-4">
                                 <div class="card">
-                                    <div class="card-header" style={{ 'fontSize': '18px', 'color': '#37517e', 'fontWeight': '900' }}>
+                                    <div class="card-header" style={{ 'fontSize': '18px', 'background': '#37517e', 'fontWeight': '900', 'color' : 'white' }}>
                                         Web Development
                                     </div>
                                     <ul class="list-group list-group-flush">
@@ -210,7 +210,7 @@ export default function Home() {
                             </div>
                             <div className="col-md-4">
                                 <div class="card">
-                                    <div class="card-header" style={{ 'fontSize': '18px', 'color': '#37517e', 'fontWeight': '900' }}>
+                                    <div class="card-header" style={{ 'fontSize': '18px', 'background': '#37517e', 'fontWeight': '900', 'color' : 'white' }}>
                                         Mobile Development
                                     </div>
                                     <ul class="list-group list-group-flush">
@@ -224,7 +224,7 @@ export default function Home() {
                             </div>
                             <div className="col-md-4">
                                 <div class="card">
-                                    <div class="card-header" style={{ 'fontSize': '18px', 'color': '#37517e', 'fontWeight': '900' }}>
+                                    <div class="card-header" style={{ 'fontSize': '18px', 'background': '#37517e', 'fontWeight': '900', 'color' : 'white' }}>
                                         Software Development
 
                                     </div>
@@ -247,7 +247,7 @@ export default function Home() {
                         <div className="row mx-auto" style={{ 'paddingTop': '7px' }}>
                             <div className="col-md-4">
                                 <div class="card">
-                                    <div class="card-header" style={{ 'fontSize': '18px', 'color': '#37517e', 'fontWeight': '900' }}>
+                                    <div class="card-header" style={{ 'fontSize': '18px', 'background': '#37517e', 'fontWeight': '900', 'color' : 'white' }}>
                                         Product and Design
                                     </div>
                                     <ul class="list-group list-group-flush">
@@ -261,7 +261,7 @@ export default function Home() {
                             </div>
                             <div className="col-md-4">
                                 <div class="card">
-                                    <div class="card-header" style={{ 'fontSize': '18px', 'color': '#37517e', 'fontWeight': '900' }}>
+                                    <div class="card-header" style={{ 'fontSize': '18px', 'background': '#37517e', 'fontWeight': '900', 'color' : 'white' }}>
                                         Cloud Platforms
 
                                     </div>
@@ -276,7 +276,7 @@ export default function Home() {
                             </div>
                             <div className="col-md-4">
                                 <div class="card">
-                                    <div class="card-header" style={{ 'fontSize': '18px', 'color': '#37517e', 'fontWeight': '900' }}>
+                                    <div class="card-header" style={{ 'fontSize': '18px', 'background': '#37517e', 'fontWeight': '900', 'color' : 'white' }}>
                                         E-Commerce Development
                                     </div>
                                     <ul class="list-group list-group-flush">
@@ -297,7 +297,7 @@ export default function Home() {
                         <div className="row mx-auto" style={{ 'paddingTop': '7px' }}>
                             <div className="col-md-4">
                                 <div class="card">
-                                    <div class="card-header" style={{ 'fontSize': '18px', 'color': '#37517e', 'fontWeight': '900' }}>
+                                    <div class="card-header" style={{ 'fontSize': '18px', 'background': '#37517e', 'fontWeight': '900', 'color' : 'white' }}>
                                         Data Analytics
                                     </div>
                                     {/* <ul class="list-group list-group-flush">
@@ -310,7 +310,7 @@ export default function Home() {
                             </div>
                             <div className="col-md-4">
                                 <div class="card">
-                                    <div class="card-header" style={{ 'fontSize': '18px', 'color': '#37517e', 'fontWeight': '900' }}>
+                                    <div class="card-header" style={{ 'fontSize': '18px', 'background': '#37517e', 'fontWeight': '900', 'color' : 'white' }}>
                                         Game Development
 
                                     </div>
@@ -324,7 +324,7 @@ export default function Home() {
                             </div>
                             <div className="col-md-4">
                                 <div class="card">
-                                    <div class="card-header" style={{ 'fontSize': '18px', 'color': '#37517e', 'fontWeight': '900' }}>
+                                    <div class="card-header" style={{ 'fontSize': '18px', 'background': '#37517e', 'fontWeight': '900', 'color' : 'white' }}>
                                         UI & UX Designes
                                     </div>
                                     {/* <ul class="list-group list-group-flush">
@@ -406,25 +406,39 @@ export default function Home() {
                         <div className="row">
                             <div className="col-md-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                                 <div className="icon-box">
-                                    <div className="icon"><i className="bx bxl-dribbble"></i></div>
+                                    <div className="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
+                                            <path fill="#37517e" d="M14 18.315A7.037 7.037 0 0 1 11.263 16H3V4h18v2.264a7.046 7.046 0 0 1 2 2.15V4a2.006 2.006 0 0 0-2-2H3a2.006 2.006 0 0 0-2 2v12a2.006 2.006 0 0 0 2 2h7v2H8v2h8v-2h-2Z" />
+                                            <path fill="#37517e" d="M17 6a6 6 0 1 0 6 6a5.998 5.998 0 0 0-6-6Zm0 10a4 4 0 1 1 4-4a4.005 4.005 0 0 1-4 4Z" /><circle cx="17" cy="12" r="1" fill="#37517e" /></svg>
+
+                                    </div>
                                     <h4><a href="" className='fontSizeAndWeight'>Web Development</a></h4>
-                                    <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                                    <p>We build modern, feature-rich innovative & creative web applications. We create meaningful, measurable results.
+                                        Most of all, we give our clients whatever they need, when they need it.</p>
                                 </div>
                             </div>
 
                             <div className="col-md-4 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
                                 <div className="icon-box">
-                                    <div className="icon"><i className="bx bx-file"></i></div>
+                                    <div className="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><g fill="none"><g clip-path="url(#healthiconsMobileNegative0)">
+                                            <path fill="#37517e" fill-rule="evenodd" d="M0 0h48v48H0V0Zm12.966 7.249a3 3 0 0 1 2.996-3.005l15.972-.026a3 3 0 0 1 3.005 2.995l.055 33.987A3 3 0 0 1 32 44.205l-15.972.026a3 3 0 0 1-3.005-2.995l-.056-33.987Zm2 .997a2 2 0 0 1 1.996-2.004L30.94 6.22a2 2 0 0 1 2.003 1.997l.044 26.99a2 2 0 0 1-1.997 2.003l-13.977.023a2 2 0 0 1-2.003-1.997l-.044-26.99Zm9.044 33.972a1.998 1.998 0 1 0-.008-3.996a1.998 1.998 0 0 0 .008 3.996Zm-.818-14.679l.79.657l.788-.652l.016-.014c1.58-1.315 2.878-2.396 3.785-3.413s1.406-1.952 1.405-2.97c-.002-1.656-1.423-2.954-3.233-2.953c-1.025 0-2.01.439-2.652 1.13l-.117.125l-.117-.126c-.643-.69-1.629-1.125-2.653-1.125c-1.81.002-3.23 1.303-3.228 2.959c0 1.018.5 1.952 1.41 2.967c.911 1.018 2.217 2.1 3.806 3.416Z" clip-rule="evenodd" /></g><defs><clipPath id="healthiconsMobileNegative0"><path d="M0 0h48v48H0z" /></clipPath></defs></g></svg>
+
+                                    </div>
                                     <h4><a href="" className='fontSizeAndWeight'>Mobile Apps</a></h4>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                                    <p>We leverage the latest cutting-edge technology stack to make scalable, reliable, world-class apps for any mobile OS.</p>
                                 </div>
                             </div>
 
                             <div className="col-md-4 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
                                 <div className="icon-box">
-                                    <div className="icon"><i className="bx bx-tachometer"></i></div>
+                                    <div className="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><path fill="#37517e" d="M6 7h8v2H6zm0 4h12v2H6zm0 4h2.99v2H6z" />
+                                            <path fill="#37517e" d="m14 3l-3-3v2H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4v-2H4V4h7v2Zm-4 18l3 3v-2h7a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2h-4v2h4v16h-7v-2Z" /></svg>
+
+                                    </div>
                                     <h4><a href="" className='fontSizeAndWeight'>Maintenance</a></h4>
-                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                                    <p>Minimize downtime and ensure business continuation with round-the-clock monitoring and maintenance.</p>
                                 </div>
                             </div>
 
@@ -435,25 +449,40 @@ export default function Home() {
                         <div className="row">
                             <div className="col-md-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                                 <div className="icon-box">
-                                    <div className="icon"><i className="bx bxl-dribbble"></i></div>
+                                    <div className="icon">
+
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><path fill="#37517e" d="M4 21q-.825 0-1.413-.588T2 19V8q0-.825.588-1.413T4 6h4V4q0-.825.588-1.413T10 2h4q.825 0 1.413.588T16 4v2h4q.825 0 1.413.588T22 8v11q0 .825-.588 1.413T20 21H4Zm6-15h4V4h-4v2Z" /></svg>
+
+                                    </div>
                                     <h4><a href="" className='fontSizeAndWeight'>Resource Hiring & Staffing</a></h4>
-                                    <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                                    <p>Develop new digital solutions without having to build an in-house team by hiring our expert developers.</p>
                                 </div>
                             </div>
 
                             <div className="col-md-4 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
                                 <div className="icon-box">
-                                    <div className="icon"><i className="bx bx-file"></i></div>
+                                    <div className="icon">
+
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><g fill="none" stroke="#37517e" stroke-linejoin="round" stroke-width="4">
+                                            <path d="M19 32c-7.732 0-14-6.268-14-14S11.268 4 19 4s14 6.268 14 14" /><path d="M44 18H18v26h26V18Z" /></g></svg>
+                                    </div>
                                     <h4><a href="" className='fontSizeAndWeight'>Design</a></h4>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+
+                                    <p>Create flawless UI/UX designs that engages your users with our award-winning team of designers.</p>
                                 </div>
                             </div>
 
                             <div className="col-md-4 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
                                 <div className="icon-box">
-                                    <div className="icon"><i className="bx bx-tachometer"></i></div>
+                                    <div className="icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+                                            <mask id="ipSFileQualityOne0"><g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"><path d="M40 23v-9L31 4H10a2 2 0 0 0-2 2v36a2 2 0 0 0 2 2h12" />
+                                                <path fill="#fff" d="M28.2 30h9.6l3.2 4.118L33 44l-8-9.882L28.2 30Z" /><path d="M30 4v10h10" /></g></mask>
+                                            <path fill="#37517e" d="M0 0h48v48H0z" mask="url(#ipSFileQualityOne0)" /></svg>
+
+                                    </div>
                                     <h4><a href="" className='fontSizeAndWeight'>Software Quality Assurance & Testing</a></h4>
-                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                                    <p>Test and ensure the quality of your existing and new software with our experienced QA engineers.</p>
                                 </div>
                             </div>
 
@@ -468,7 +497,7 @@ export default function Home() {
                         <div className="row">
                             <div className="col-lg-9 text-center text-lg-start">
                                 <h3>Call To Action</h3>
-                                <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <p>Every Successful Project Starts With a Word. Request a Demo and checkout Our Software Services in Action. Tailored Solutions for You.</p>
                             </div>
                             <div className="col-lg-3 cta-btn-container text-center">
                                 <a className="cta-btn align-middle" href="#">Call To Action</a>
@@ -581,65 +610,6 @@ export default function Home() {
                     </div>
                 </section>
 
-                <section id="pricing" className="pricing">
-                    <div className="container" data-aos="fade-up">
-
-                        <div className="section-title">
-                            <h2>Pricing</h2>
-                            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-                        </div>
-
-                        <div className="row">
-
-                            <div className="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                                <div className="box">
-                                    <h3>Free Plan</h3>
-                                    <h4><sup>$</sup>0<span>per month</span></h4>
-                                    <ul>
-                                        <li><i className="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                                        <li><i className="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                                        <li><i className="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                                        <li className="na"><i className="bx bx-x"></i> <span>Pharetra massa massa ultricies</span></li>
-                                        <li className="na"><i className="bx bx-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-                                    </ul>
-                                    <a href="#" className="buy-btn">Get Started</a>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
-                                <div className="box featured">
-                                    <h3>Business Plan</h3>
-                                    <h4><sup>$</sup>29<span>per month</span></h4>
-                                    <ul>
-                                        <li><i className="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                                        <li><i className="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                                        <li><i className="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                                        <li><i className="bx bx-check"></i> Pharetra massa massa ultricies</li>
-                                        <li><i className="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
-                                    </ul>
-                                    <a href="#" className="buy-btn">Get Started</a>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
-                                <div className="box">
-                                    <h3>Developer Plan</h3>
-                                    <h4><sup>$</sup>49<span>per month</span></h4>
-                                    <ul>
-                                        <li><i className="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                                        <li><i className="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                                        <li><i className="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                                        <li><i className="bx bx-check"></i> Pharetra massa massa ultricies</li>
-                                        <li><i className="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
-                                    </ul>
-                                    <a href="#" className="buy-btn">Get Started</a>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </section>
 
 
 
@@ -658,19 +628,19 @@ export default function Home() {
                                     <div className="address">
                                         <i className="bi bi-geo-alt"></i>
                                         <h4>Location:</h4>
-                                        <p>A108 Adam Street, New York, NY 535022</p>
+                                        <p>MG Street, Noida, 201301, India ( Bharat )</p>
                                     </div>
 
                                     <div className="email">
                                         <i className="bi bi-envelope"></i>
                                         <h4>Email:</h4>
-                                        <p>info@example.com</p>
+                                        <p>info@ingemstechnology.com</p>
                                     </div>
 
                                     <div className="phone">
                                         <i className="bi bi-phone"></i>
                                         <h4>Call:</h4>
-                                        <p>+1 5589 55488 55s</p>
+                                        <p>+1 001 002 003</p>
                                     </div>
 
                                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameBorder="0" style={{ 'border': 0, 'width': '100%', 'height': '290px' }} allowFullScreen></iframe>
