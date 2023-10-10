@@ -195,44 +195,44 @@ export default function Home() {
 
                         <div className="row mx-auto">
                             <div className="col-md-4">
-                                <div class="card">
-                                    <div class="card-header" style={{ 'fontSize': '18px', 'background': '#37517e', 'fontWeight': '900', 'color' : 'white' }}>
+                                <div className="card">
+                                    <div className="card-header" style={{ 'fontSize': '18px', 'background': '#37517e', 'fontWeight': '900', 'color': 'white' }}>
                                         Web Development
                                     </div>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item fontSizeAndWeight">PHP</li>
-                                        <li class="list-group-item fontSizeAndWeight">React</li>
-                                        <li class="list-group-item fontSizeAndWeight">Node</li>
-                                        <li class="list-group-item fontSizeAndWeight">Angular</li>
+                                    <ul className="list-group list-group-flush">
+                                        <li className="list-group-item fontSizeAndWeight">PHP</li>
+                                        <li className="list-group-item fontSizeAndWeight">React</li>
+                                        <li className="list-group-item fontSizeAndWeight">Node</li>
+                                        <li className="list-group-item fontSizeAndWeight">Angular</li>
                                     </ul>
                                 </div>
 
                             </div>
                             <div className="col-md-4">
-                                <div class="card">
-                                    <div class="card-header" style={{ 'fontSize': '18px', 'background': '#37517e', 'fontWeight': '900', 'color' : 'white' }}>
+                                <div className="card">
+                                    <div className="card-header" style={{ 'fontSize': '18px', 'background': '#37517e', 'fontWeight': '900', 'color': 'white' }}>
                                         Mobile Development
                                     </div>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item fontSizeAndWeight">iOS</li>
-                                        <li class="list-group-item fontSizeAndWeight">Android</li>
-                                        <li class="list-group-item fontSizeAndWeight">React Native</li>
-                                        <li class="list-group-item fontSizeAndWeight">Ionic</li>
+                                    <ul className="list-group list-group-flush">
+                                        <li className="list-group-item fontSizeAndWeight">iOS</li>
+                                        <li className="list-group-item fontSizeAndWeight">Android</li>
+                                        <li className="list-group-item fontSizeAndWeight">React Native</li>
+                                        <li className="list-group-item fontSizeAndWeight">Ionic</li>
                                     </ul>
                                 </div>
 
                             </div>
                             <div className="col-md-4">
-                                <div class="card">
-                                    <div class="card-header" style={{ 'fontSize': '18px', 'background': '#37517e', 'fontWeight': '900', 'color' : 'white' }}>
+                                <div className="card">
+                                    <div className="card-header" style={{ 'fontSize': '18px', 'background': '#37517e', 'fontWeight': '900', 'color': 'white' }}>
                                         Software Development
 
                                     </div>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item fontSizeAndWeight">Java & RoR</li>
-                                        <li class="list-group-item fontSizeAndWeight">.NET</li>
-                                        <li class="list-group-item fontSizeAndWeight">GoLang</li>
-                                        <li class="list-group-item fontSizeAndWeight">Python</li>
+                                    <ul className="list-group list-group-flush">
+                                        <li className="list-group-item fontSizeAndWeight">Java & RoR</li>
+                                        <li className="list-group-item fontSizeAndWeight">.NET</li>
+                                        <li className="list-group-item fontSizeAndWeight">GoLang</li>
+                                        <li className="list-group-item fontSizeAndWeight">Python</li>
 
                                     </ul>
                                 </div>
@@ -246,44 +246,44 @@ export default function Home() {
 
                         <div className="row mx-auto" style={{ 'paddingTop': '7px' }}>
                             <div className="col-md-4">
-                                <div class="card">
-                                    <div class="card-header" style={{ 'fontSize': '18px', 'background': '#37517e', 'fontWeight': '900', 'color' : 'white' }}>
+                                <div className="card">
+                                    <div className="card-header" style={{ 'fontSize': '18px', 'background': '#37517e', 'fontWeight': '900', 'color': 'white' }}>
                                         Product and Design
                                     </div>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item fontSizeAndWeight">Adobe Photoshop</li>
-                                        <li class="list-group-item fontSizeAndWeight">Sketch</li>
-                                        <li class="list-group-item fontSizeAndWeight">Invisionapp</li>
-                                        <li class="list-group-item fontSizeAndWeight">Zeplin</li>
+                                    <ul className="list-group list-group-flush">
+                                        <li className="list-group-item fontSizeAndWeight">Adobe Photoshop</li>
+                                        <li className="list-group-item fontSizeAndWeight">Sketch</li>
+                                        <li className="list-group-item fontSizeAndWeight">Invisionapp</li>
+                                        <li className="list-group-item fontSizeAndWeight">Zeplin</li>
                                     </ul>
                                 </div>
 
                             </div>
                             <div className="col-md-4">
-                                <div class="card">
-                                    <div class="card-header" style={{ 'fontSize': '18px', 'background': '#37517e', 'fontWeight': '900', 'color' : 'white' }}>
+                                <div className="card">
+                                    <div className="card-header" style={{ 'fontSize': '18px', 'background': '#37517e', 'fontWeight': '900', 'color': 'white' }}>
                                         Cloud Platforms
 
                                     </div>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item fontSizeAndWeight">Azure</li>
-                                        <li class="list-group-item fontSizeAndWeight">AWS</li>
-                                        <li class="list-group-item fontSizeAndWeight">Firebase</li>
-                                        <li class="list-group-item fontSizeAndWeight">Parse</li>
+                                    <ul className="list-group list-group-flush">
+                                        <li className="list-group-item fontSizeAndWeight">Azure</li>
+                                        <li className="list-group-item fontSizeAndWeight">AWS</li>
+                                        <li className="list-group-item fontSizeAndWeight">Firebase</li>
+                                        <li className="list-group-item fontSizeAndWeight">Parse</li>
                                     </ul>
                                 </div>
 
                             </div>
                             <div className="col-md-4">
-                                <div class="card">
-                                    <div class="card-header" style={{ 'fontSize': '18px', 'background': '#37517e', 'fontWeight': '900', 'color' : 'white' }}>
+                                <div className="card">
+                                    <div className="card-header" style={{ 'fontSize': '18px', 'background': '#37517e', 'fontWeight': '900', 'color': 'white' }}>
                                         E-Commerce Development
                                     </div>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item fontSizeAndWeight">Magento</li>
-                                        <li class="list-group-item fontSizeAndWeight">NopCommerce</li>
-                                        <li class="list-group-item fontSizeAndWeight">PrestaShop</li>
-                                        <li class="list-group-item fontSizeAndWeight">Endeca Commerce</li>
+                                    <ul className="list-group list-group-flush">
+                                        <li className="list-group-item fontSizeAndWeight">Magento</li>
+                                        <li className="list-group-item fontSizeAndWeight">NopCommerce</li>
+                                        <li className="list-group-item fontSizeAndWeight">PrestaShop</li>
+                                        <li className="list-group-item fontSizeAndWeight">Endeca Commerce</li>
 
                                     </ul>
                                 </div>
@@ -296,41 +296,41 @@ export default function Home() {
 
                         <div className="row mx-auto" style={{ 'paddingTop': '7px' }}>
                             <div className="col-md-4">
-                                <div class="card">
-                                    <div class="card-header" style={{ 'fontSize': '18px', 'background': '#37517e', 'fontWeight': '900', 'color' : 'white' }}>
+                                <div className="card">
+                                    <div className="card-header" style={{ 'fontSize': '18px', 'background': '#37517e', 'fontWeight': '900', 'color': 'white' }}>
                                         Data Analytics
                                     </div>
-                                    {/* <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">Cras justo odio</li>
-                                        <li class="list-group-item">Dapibus ac facilisis in</li>
-                                        <li class="list-group-item">Vestibulum at eros</li>
+                                    {/* <ul className="list-group list-group-flush">
+                                        <li className="list-group-item">Cras justo odio</li>
+                                        <li className="list-group-item">Dapibus ac facilisis in</li>
+                                        <li className="list-group-item">Vestibulum at eros</li>
                                     </ul> */}
                                 </div>
 
                             </div>
                             <div className="col-md-4">
-                                <div class="card">
-                                    <div class="card-header" style={{ 'fontSize': '18px', 'background': '#37517e', 'fontWeight': '900', 'color' : 'white' }}>
+                                <div className="card">
+                                    <div className="card-header" style={{ 'fontSize': '18px', 'background': '#37517e', 'fontWeight': '900', 'color': 'white' }}>
                                         Game Development
 
                                     </div>
-                                    {/* <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">Cras justo odio</li>
-                                        <li class="list-group-item">Dapibus ac facilisis in</li>
-                                        <li class="list-group-item">Vestibulum at eros</li>
+                                    {/* <ul className="list-group list-group-flush">
+                                        <li className="list-group-item">Cras justo odio</li>
+                                        <li className="list-group-item">Dapibus ac facilisis in</li>
+                                        <li className="list-group-item">Vestibulum at eros</li>
                                     </ul> */}
                                 </div>
 
                             </div>
                             <div className="col-md-4">
-                                <div class="card">
-                                    <div class="card-header" style={{ 'fontSize': '18px', 'background': '#37517e', 'fontWeight': '900', 'color' : 'white' }}>
+                                <div className="card">
+                                    <div className="card-header" style={{ 'fontSize': '18px', 'background': '#37517e', 'fontWeight': '900', 'color': 'white' }}>
                                         UI & UX Designes
                                     </div>
-                                    {/* <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">Cras justo odio</li>
-                                        <li class="list-group-item">Dapibus ac facilisis in</li>
-                                        <li class="list-group-item">Vestibulum at eros</li>
+                                    {/* <ul className="list-group list-group-flush">
+                                        <li className="list-group-item">Cras justo odio</li>
+                                        <li className="list-group-item">Dapibus ac facilisis in</li>
+                                        <li className="list-group-item">Vestibulum at eros</li>
                                     </ul> */}
                                 </div>
 
@@ -421,8 +421,8 @@ export default function Home() {
                             <div className="col-md-4 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
                                 <div className="icon-box">
                                     <div className="icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><g fill="none"><g clip-path="url(#healthiconsMobileNegative0)">
-                                            <path fill="#37517e" fill-rule="evenodd" d="M0 0h48v48H0V0Zm12.966 7.249a3 3 0 0 1 2.996-3.005l15.972-.026a3 3 0 0 1 3.005 2.995l.055 33.987A3 3 0 0 1 32 44.205l-15.972.026a3 3 0 0 1-3.005-2.995l-.056-33.987Zm2 .997a2 2 0 0 1 1.996-2.004L30.94 6.22a2 2 0 0 1 2.003 1.997l.044 26.99a2 2 0 0 1-1.997 2.003l-13.977.023a2 2 0 0 1-2.003-1.997l-.044-26.99Zm9.044 33.972a1.998 1.998 0 1 0-.008-3.996a1.998 1.998 0 0 0 .008 3.996Zm-.818-14.679l.79.657l.788-.652l.016-.014c1.58-1.315 2.878-2.396 3.785-3.413s1.406-1.952 1.405-2.97c-.002-1.656-1.423-2.954-3.233-2.953c-1.025 0-2.01.439-2.652 1.13l-.117.125l-.117-.126c-.643-.69-1.629-1.125-2.653-1.125c-1.81.002-3.23 1.303-3.228 2.959c0 1.018.5 1.952 1.41 2.967c.911 1.018 2.217 2.1 3.806 3.416Z" clip-rule="evenodd" /></g><defs><clipPath id="healthiconsMobileNegative0"><path d="M0 0h48v48H0z" /></clipPath></defs></g></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><g fill="none"><g clipPath="url(#healthiconsMobileNegative0)">
+                                            <path fill="#37517e" fillRule="evenodd" d="M0 0h48v48H0V0Zm12.966 7.249a3 3 0 0 1 2.996-3.005l15.972-.026a3 3 0 0 1 3.005 2.995l.055 33.987A3 3 0 0 1 32 44.205l-15.972.026a3 3 0 0 1-3.005-2.995l-.056-33.987Zm2 .997a2 2 0 0 1 1.996-2.004L30.94 6.22a2 2 0 0 1 2.003 1.997l.044 26.99a2 2 0 0 1-1.997 2.003l-13.977.023a2 2 0 0 1-2.003-1.997l-.044-26.99Zm9.044 33.972a1.998 1.998 0 1 0-.008-3.996a1.998 1.998 0 0 0 .008 3.996Zm-.818-14.679l.79.657l.788-.652l.016-.014c1.58-1.315 2.878-2.396 3.785-3.413s1.406-1.952 1.405-2.97c-.002-1.656-1.423-2.954-3.233-2.953c-1.025 0-2.01.439-2.652 1.13l-.117.125l-.117-.126c-.643-.69-1.629-1.125-2.653-1.125c-1.81.002-3.23 1.303-3.228 2.959c0 1.018.5 1.952 1.41 2.967c.911 1.018 2.217 2.1 3.806 3.416Z" clipRule="evenodd" /></g><defs><clipPath id="healthiconsMobileNegative0"><path d="M0 0h48v48H0z" /></clipPath></defs></g></svg>
 
                                     </div>
                                     <h4><a href="" className='fontSizeAndWeight'>Mobile Apps</a></h4>
@@ -463,7 +463,7 @@ export default function Home() {
                                 <div className="icon-box">
                                     <div className="icon">
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><g fill="none" stroke="#37517e" stroke-linejoin="round" stroke-width="4">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><g fill="none" stroke="#37517e" strokeLinejoin="round" strokeWidth="4">
                                             <path d="M19 32c-7.732 0-14-6.268-14-14S11.268 4 19 4s14 6.268 14 14" /><path d="M44 18H18v26h26V18Z" /></g></svg>
                                     </div>
                                     <h4><a href="" className='fontSizeAndWeight'>Design</a></h4>
@@ -476,7 +476,7 @@ export default function Home() {
                                 <div className="icon-box">
                                     <div className="icon">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
-                                            <mask id="ipSFileQualityOne0"><g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"><path d="M40 23v-9L31 4H10a2 2 0 0 0-2 2v36a2 2 0 0 0 2 2h12" />
+                                            <mask id="ipSFileQualityOne0"><g fill="none" stroke="#fff" strokeLinecap="round" strokeLinejoin="round" strokeWidth="4"><path d="M40 23v-9L31 4H10a2 2 0 0 0-2 2v36a2 2 0 0 0 2 2h12" />
                                                 <path fill="#fff" d="M28.2 30h9.6l3.2 4.118L33 44l-8-9.882L28.2 30Z" /><path d="M30 4v10h10" /></g></mask>
                                             <path fill="#37517e" d="M0 0h48v48H0z" mask="url(#ipSFileQualityOne0)" /></svg>
 
@@ -515,12 +515,98 @@ export default function Home() {
                             <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
                         </div>
 
-                        <ul id="portfolio-flters" className="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-                            <li data-filter="*" className="filter-active">All</li>
-                            <li data-filter=".filter-app">App</li>
-                            <li data-filter=".filter-card">Card</li>
-                            <li data-filter=".filter-web">Web</li>
-                        </ul>
+
+
+
+                        <div
+                            id="carouselMultiItemExample"
+                            className="carousel slide carousel-dark text-center"
+                            data-mdb-ride="carousel"
+                        >
+                            <div className="d-flex justify-content-center mb-4">
+                                <button
+                                    className="carousel-control-prev position-relative"
+                                    type="button"
+                                    data-mdb-target="#carouselMultiItemExample"
+                                    data-mdb-slide="prev"
+                                >
+                                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span className="visually-hidden">Previous</span>
+                                </button>
+                                <button
+                                    className="carousel-control-next position-relative"
+                                    type="button"
+                                    data-mdb-target="#carouselMultiItemExample"
+                                    data-mdb-slide="next"
+                                >
+                                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span className="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div className="carousel-inner py-4">
+                                <div className="carousel-item active">
+                                    <div className="container">
+                                        <div className="row">
+                                            <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                                                <div className="card">
+                                                    <img
+                                                        src="assets/img/createYourDeals.png"
+                                                        className="card-img-top"
+                                                        alt="Peaks Against the Starry Sky"
+                                                    />
+                                                    <div className="card-body">
+                                                        <h5 className="card-title">createyourdeals.com</h5>
+                                                        <p className="card-text">
+                                                            We've developed amazing web project in E-commerce domain and providing maintenance support.
+                                                        </p>
+                                                        <a href="#!" className="btn" style={{ 'background': '#37517e', 'color': 'white' }} >Learn More</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div className="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
+                                                <div className="card">
+                                                    <img
+                                                        src="assets/img/adminDashboard.png"
+                                                        className="card-img-top"
+                                                        alt="Bridge Over Water"
+                                                    />
+                                                    <div className="card-body">
+                                                        <h5 className="card-title">Admin Dashboard</h5>
+                                                        <p className="card-text">
+                                                            We've developed amazing adming Dashboard project in Analytics domain and providing maintenance support.
+                                                        </p>
+                                                        <a href="#!" className="btn" style={{ 'background': '#37517e', 'color': 'white' }}>Learn More</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div className="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
+                                                <div className="card">
+                                                    <img
+                                                        src="assets/img/nosegay.png"
+                                                        className="card-img-top"
+                                                        alt="Purbeck Heritage Coast"
+                                                    />
+                                                    <div className="card-body">
+                                                        <h5 className="card-title">Acadmic ERP & Web Application</h5>
+                                                        <p className="card-text">
+                                                            We've developed web ERP solution and website for school and provinding maintenance support.
+                                                        </p>
+                                                        <a href="#!" className="btn" style={{ 'background': '#37517e', 'color': 'white' }}>Learn More</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+
 
 
 
